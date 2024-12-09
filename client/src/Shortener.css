@@ -1,0 +1,56 @@
+/* src/Shortener.css */
+
+.shortener-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+    .shortener-container h2 {
+        text-align: center;
+    }
+
+    .shortener-container form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .shortener-container input {
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+
+    .shortener-container button {
+        padding: 10px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+.short-urls {
+    margin-top: 20px;
+}
+
+    .short-urls ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .short-urls li {
+        margin-bottom: 10px;
+    }
+
+    .short-urls a {
+        color: #007bff;
+        text-decoration: none;
+    }
+
+        .short-urls a:hover {
+            text-decoration: underline;
+        }
